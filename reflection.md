@@ -1,5 +1,12 @@
 Use this file to record your reflection on this assignment.
 
+NOTE: I worked with Kimbery By Goytia and Taylor Knibb
+
 - Tell me about your class! What does it represent?
+    My class is an alien and it has a name, height, energy level, placement, and depending on how many hands it has it has a holding capacity. This alien is meant to be on Earth and it is exploring so it can collect items and when it examines an item it looks at it and decides wether it wants to grab it. The alien can use things that it has only grabbed. It can also fly anywhere and walk in four directions NSEW. It can only walk if it is in the coordinates since "Earth" in this worls is the surface can only go to 100 length in both the x and y coordinate. The ailen is able to undo certain methods such as grow, shrink, grab, drop, walk, fly but it cannot undo an examination or use of an item. The alien also has an energy level and needs to rest in order to be able to attempt to perform tasks. The alien can also be constructed to only have a name and in the case that a capacity is never mentioned it has a default value of 8. There are other variables that if also not given have default values such as energy of 100, height of 80, and its coordinates are (0,0). The alien has a height and they can shrink or get taller using the grow() method.
+
 - What additional methods (if any) did you implement alongside those listed in the interface?
+    We implemented the move() method which does the actual walking based off the boolean that the walk() method returned. It should be able to walk if the alien has sufficent energy and is not at a coordinate that would allow it to go off the graph.
+
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+    What worked was storing a variable called lastAction into the code that would be executed when a task was sucessfuly carried out that way the undo method can check what the last action was and can give a response or call a specific funciton to undo() the last action. I advise students to not think so literally because at first we were having trouble with the walk method when we were thinking of walk as in walking to a region when we could have just had walk as in a move up, down, left, and right. I advise students to first think of the setting that their character is going to be in that way you can visualize how they will perform tasks.
